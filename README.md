@@ -1,6 +1,9 @@
 # What is this mod?
 A mod for PC version of Gorilla Tag that shows an info about your current gamestate in Discord.
 
+## What is this fork about
+This fork of MonkeRPC is a fork that update's the mod more including adding support for newer maps
+
 ## Manual Installation
 Be sure that you are already installed BepInEx (using MonkeModManager for example). You need x64 version. [Take it there.](https://github.com/BepInEx/BepInEx/releases)
 
