@@ -288,6 +288,21 @@ namespace MonkeRPC
                         m_hActivity.Assets.LargeImage = "gorillatag_mountain";
                         break;
 
+                    case eJoinedMap.SkyJungle:
+                        m_hKVDictionary["mapname"] = "SkyJungle";
+                        m_hActivity.Assets.LargeImage = "gorillatag_skyjungle";
+                        break;
+
+                    case eJoinedMap.Basement:
+                        m_hKVDictionary["mapname"] = "Basement";
+                        m_hActivity.Assets.LargeImage = "gorillatag_basement";
+                        break;
+
+                    case eJoinedMap.Beachcove:
+                        m_hKVDictionary["mapname"] = "Beachcove";
+                        m_hActivity.Assets.LargeImage = "gorillatag_beachcove";
+                        break;
+
                     default:
                         m_hKVDictionary["mapname"] = "Forest";
                         m_hActivity.Assets.LargeImage = "gorillatag_forest";
