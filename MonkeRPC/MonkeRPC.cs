@@ -275,7 +275,7 @@ namespace MonkeRPC
             
                     case eJoinedMap.Canyon:
                         m_hKVDictionary["mapname"] = "Canyon";
-                        m_hActivity.Assets.LargeImage = "gorillatag_desert"; // Yeah, that's a desert, sorry ;D
+                        m_hActivity.Assets.LargeImage = "gorillatag_canyan";
                         break;
 
                     case eJoinedMap.GorillaShop:
