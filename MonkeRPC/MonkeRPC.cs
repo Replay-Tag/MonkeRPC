@@ -289,8 +289,8 @@ namespace MonkeRPC
                         break;
 
                     case eJoinedMap.SkyJungle:
-                        m_hKVDictionary["mapname"] = "SkyJungle";
-                        m_hActivity.Assets.LargeImage = "gorillatag_skyjungle";
+                        m_hKVDictionary["mapname"] = "Sky Jungle";
+                        m_hActivity.Assets.LargeImage = "gorillatag_sj";
                         break;
 
                     case eJoinedMap.Basement:
@@ -299,13 +299,13 @@ namespace MonkeRPC
                         break;
 
                     case eJoinedMap.Beachcove:
-                        m_hKVDictionary["mapname"] = "Beachcove";
-                        m_hActivity.Assets.LargeImage = "gorillatag_beachcove";
+                        m_hKVDictionary["mapname"] = "Beach";
+                        m_hActivity.Assets.LargeImage = "gorillatag_beach";
                         break;
 
                     default:
                         m_hKVDictionary["mapname"] = "Forest";
-                        m_hActivity.Assets.LargeImage = "gorillatag_forest";
+                        m_hActivity.Assets.LargeImage = "lobby";
                         break;
                 }
             }
