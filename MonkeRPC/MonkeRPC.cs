@@ -298,7 +298,7 @@ namespace MonkeRPC
                         m_hActivity.Assets.LargeImage = "gorillatag_basement";
                         break;
 
-                    case eJoinedMap.Beachcove:
+                    case eJoinedMap.Beach:
                         m_hKVDictionary["mapname"] = "Beach";
                         m_hActivity.Assets.LargeImage = "gorillatag_beach";
                         break;
