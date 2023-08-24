@@ -147,7 +147,7 @@ namespace MonkeRPC
             /* Give some time for game to initialize */
             Thread.Sleep(5000);
             
-            m_hDiscord = new Discord.Discord(837692600189190174, (UInt64)CreateFlags.NoRequireDiscord);
+            m_hDiscord = new Discord.Discord(1144052617534787705, (UInt64)CreateFlags.NoRequireDiscord);
             m_hActivityManager = m_hDiscord.GetActivityManager();
             if (m_hActivityManager == null) return;
             m_hActivityManager.RegisterSteam(1533390);
@@ -305,7 +305,7 @@ namespace MonkeRPC
 
                     default:
                         m_hKVDictionary["mapname"] = "Forest";
-                        m_hActivity.Assets.LargeImage = "lobby";
+                        m_hActivity.Assets.LargeImage = "gorillatag_forest";
                         break;
                 }
             }
